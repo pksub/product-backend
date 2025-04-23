@@ -62,4 +62,4 @@ public class CartController {
         cartService.clearCart(customer);
         return ResponseEntity.ok().build();
     }
-} 
+}
