@@ -5,8 +5,8 @@
 
 ## 기술 스택
 - Java 17
-- Spring Boot 3.2.3
-- MariaDB 10.x
+- Spring Boot 3.2.12
+- MariaDB 10
 - JPA
 - Maven
 
@@ -22,18 +22,6 @@
 4. 주문 내역 조회
    - 사용자의 완료된 주문 기록 조회
 
-## 실행 방법
-1. MariaDB 설치 및 실행
-2. 데이터베이스 생성
-   ```sql
-   CREATE DATABASE product_db;
-   ```
-3. application.yml 파일에서 데이터베이스 접속 정보 설정
-4. 프로젝트 빌드 및 실행
-   ```bash
-   ./mvnw clean install
-   ./mvnw spring-boot:run
-   ```
 
 ## API 문서
 API 문서는 프로젝트 실행 후 다음 URL에서 확인할 수 있습니다:
