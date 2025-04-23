@@ -19,7 +19,15 @@ logs/
 # 환경 설정 파일
 src/main/resources/application-local.yml
 src/main/resources/application-dev.yml
+*.properties
+*.yml
+*.yaml
+
+# 잠금 파일
+*.lock
 
 # 기타 임시 파일
 .DS_Store
-Thumbs.db 
+Thumbs.db
+*.tmp
+*.temp 
