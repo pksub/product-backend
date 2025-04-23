@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.product.assignment.service.CartServiceTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-04-23T06:06:00" hostname="pksubui-MacBookPro.local" time="0.563">
+  <properties/>
+  <testcase name="clearCart_ShouldDeleteAllCartItems()" classname="com.product.assignment.service.CartServiceTest" time="0.537"/>
+  <testcase name="addToCart_WithInvalidQuantity_ShouldThrowException()" classname="com.product.assignment.service.CartServiceTest" time="0.003"/>
+  <testcase name="removeFromCart_ShouldDeleteCartItem()" classname="com.product.assignment.service.CartServiceTest" time="0.003"/>
+  <testcase name="updateCartItem_WithValidQuantity_ShouldUpdateQuantity()" classname="com.product.assignment.service.CartServiceTest" time="0.002"/>
+  <testcase name="getCustomerCart_ShouldReturnCartItems()" classname="com.product.assignment.service.CartServiceTest" time="0.002"/>
+  <testcase name="updateCartItem_WithInvalidQuantity_ShouldThrowException()" classname="com.product.assignment.service.CartServiceTest" time="0.001"/>
+  <testcase name="addToCart_WithValidQuantity_ShouldAddToCart()" classname="com.product.assignment.service.CartServiceTest" time="0.005"/>
+  <testcase name="addToCart_WithInsufficientStock_ShouldThrowException()" classname="com.product.assignment.service.CartServiceTest" time="0.001"/>
+  <testcase name="removeFromCart_WithNonExistentCartItem_ShouldThrowException()" classname="com.product.assignment.service.CartServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/home/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.19/154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1/byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
